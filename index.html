@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- inter-font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind CSS link -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>TechWave</title>
+  
+  </head>
+  <body class="text-white font-[Inter]">
+    <header class="max-w-[1600px] mx-auto">
+      <nav
+        id="navbar"
+        class="max-w-[1600px] bg-[#1A0B2E] border border-[#5a1fa866] mx-auto flex justify-between items-center"
+      >
+        <h2 id="name" class="text-3xl font-bold">
+          Tech<span
+            class="text-3xl font-bold bg-linear-to-b from-[#9100F8] via-[#FB09B4] to-[#F7E93F] bg-clip-text text-transparent"
+            >Wave</span
+          >
+        </h2>
+        <!-- menus -->
+        <ul class="menus flex gap-x-32 text-base">
+          <li class="hover:bg-[#FB09B4] px-5 py-2 rounded-4xl">
+            <a href="#">About</a>
+          </li>
+          <li class="hover:bg-[#FB09B4] px-5 py-2 rounded-4xl">
+            <a href="#">Episodes</a>
+          </li>
+          <li class="hover:bg-[#FB09B4] px-5 py-2 rounded-4xl">
+            <a href="#">Host</a>
+          </li>
+        </ul>
+        <!-- buttons -->
+        <div>
+          <button
+            class="subscribe-btn flex px-5 py-3 cursor-pointer  text-white font-semibold rounded-4xl bg-linear-to-l from-[#9100F8] via-[#FB09B4] to-[#F7E93F] hover:opacity-90 transition"
+          >
+            Subscribe<img src="assets/ArrowRight.png" alt="" />
+          </button>
+        </div>
+
+        <div>
+          <img class="hamburger" src="assets/hamburger-menu.png" alt="" />
+        </div>
+      </nav>
+
+      <!-- banner section -->
+      <section
+        class="banner bg-[url(assets/hero-bg.png)] bg-no-repeat bg-center bg-cover mx-auto min-h-screen flex flex-col items-center py-30"
+      >
+        <div
+          id="images"
+          class="relative w-[334px] h-[334px] flex items-center justify-center"
+        >
+          <img
+            id="circle"
+            class="absolute w-full h-full inset-0"
+            src="assets/hero-circle.png"
+            alt=""
+          />
+
+          <img
+            id="microphone"
+            class="relative z-10 w-1/2 h-auto"
+            src="assets/microphone.png"
+            alt=""
+          />
+          <!-- adding animation -->
+          <span
+            id="badge"
+            class="absolute animate-pulse z-10 transform top-8 right-2 inline-flex items-center rounded-4xl text-green-50 px-2 py-1 text-base font-medium bg-green-700 inset-ring inset-ring-green-600/20"
+            >New</span
+          >
+        </div>
+        <div class="text-center">
+          <h1 class="text-6xl font-bold mt-10">TechWave</h1>
+          <p class="opacity-[0.8] text-base mt-2 mb-8">
+            Your daily dose of tech insights, productivity hacks, and personal
+            growth
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-4 justify-center w-full">
+          <button
+            class="flex px-5 py-3 text-white font-semibold rounded-4xl items-center bg-linear-to-l from-[#9100F8] via-[#FB09B4] to-[#F7E93F] hover:opacity-90 transition"
+          >
+            <img class="mr-2 w-5 h-5" src="assets/spotify.png" alt="" />Listen
+            on Spotify
+          </button>
+          <button
+            class="border border-solid border-[#00FF88] text-[#00FF88] px-3 py-3 rounded-4xl flex items-center"
+          >
+            <img
+              class="mr-2 w-5 h-5"
+              src="assets/message.png"
+              alt=""
+            />Subscribe
+          </button>
+        </div>
+      </section>
+    </header>
