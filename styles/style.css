@@ -170,6 +170,19 @@
     gap: 10px !important;
     grid-template-columns: 1fr;
   }
+  /* features section */
+  #feature-episodes {
+    padding: 20px 5px;
+  }
+  #feature {
+    padding: 5px;
+    margin: 0 auto;
+    gap: 40px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-video {
+    width: 100%;
+  }
 
     /* 992px+ large device */
 @media screen and (min-width: 993px) {
