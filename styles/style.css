@@ -63,6 +63,28 @@
     padding: 40px 10px;
     margin: 0 auto;
   }
+  /* why choose */
+  #card {
+    display: grid;
+    width: 100%;
+    padding: 2px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 10px !important;
+    grid-template-columns: 1fr;
+  }
+  #Why-Choose {
+    padding: 15px 0px;
+  }
+  .why-choose-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 0px 10px;
+    margin: 0 auto;
+  }
+  .Why-Choose-content > h3 {
+    margin: 15px auto;
+  }
 }/* 576px – 991px medium device*/
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .menus {
@@ -138,6 +160,17 @@
     gap: 40px;
     grid-template-columns: repeat(2, 1fr);
   }
+  /* why choose */
+  #card {
+    display: grid;
+    width: 100%;
+    padding: 2px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 10px !important;
+    grid-template-columns: 1fr;
+  }
+
     /* 992px+ large device */
 @media screen and (min-width: 993px) {
   #navbar {
