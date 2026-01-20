@@ -49,6 +49,20 @@
   .images {
     display: none;
   }
+  /* about */
+  .about-content {
+    padding: 10px;
+  }
+  .card-box {
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-content,
+  .card-box {
+    padding: 40px 10px;
+    margin: 0 auto;
+  }
 }/* 576px – 991px medium device*/
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .menus {
@@ -57,6 +71,7 @@
   .hamburger {
     display: none;
   }
+
 
   .banner {
     padding-top: 5rem !important; 
@@ -115,6 +130,14 @@
     font-size: 1rem !important;
     padding: 4px 12px !important;
     } }
+    /* about */
+  .about-content {
+    padding: 20px;
+  }
+  .card-box {
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
     /* 992px+ large device */
 @media screen and (min-width: 993px) {
   #navbar {
