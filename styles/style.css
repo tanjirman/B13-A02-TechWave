@@ -94,6 +94,14 @@
   #social-icons {
     display: inline-flex;
   }
+  /* footer */
+  #social-icons {
+    margin-top: 20px;
+  }
+  .icon-name {
+    font-size: 10px;
+  }
+
 }/* 576px – 991px medium device*/
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .menus {
