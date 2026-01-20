@@ -11,9 +11,9 @@
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet" />
   <!-- tailwind CSS link -->
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <!-- CSS file link -->
-  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/style.css">
   <title>TechWave</title>
 
 </head>
@@ -55,9 +55,9 @@
     <section
       class="banner bg-[url(assets/hero-bg.png)] bg-no-repeat bg-center bg-cover mx-auto min-h-screen flex flex-col items-center py-30">
       <div id="images" class="relative w-[334px] h-[334px] flex items-center justify-center">
-        <img id="circle" class="absolute w-full h-full inset-0" src="assets/hero-circle.png" alt="" />
+        <img id="circle" class="absolute w-full h-full inset-0" src="assets/hero-circle.png" alt="circle" />
 
-        <img id="microphone" class="relative z-10 w-1/2 h-auto" src="assets/microphone.png" alt="" />
+        <img id="microphone" class="relative z-10 w-1/2 h-auto" src="assets/microphone.png" alt="microphone" />
         <!-- adding animation -->
         <span id="badge"
           class="absolute animate-pulse z-10 transform top-8 right-2 inline-flex items-center rounded-4xl text-green-50 px-2 py-1 text-base font-medium bg-green-700 inset-ring inset-ring-green-600/20">New</span>
@@ -72,11 +72,11 @@
       <div class="flex flex-wrap gap-4 justify-center w-full">
         <button
           class="flex px-5 py-3 text-white font-semibold rounded-4xl items-center bg-linear-to-l from-[#9100F8] via-[#FB09B4] to-[#F7E93F] hover:opacity-90 transition">
-          <img class="mr-2 w-5 h-5" src="assets/spotify.png" alt="" />Listen
+          <img class="mr-2 w-5 h-5" src="assets/spotify.png" alt="spotify" />Listen
           on Spotify
         </button>
         <button class="border border-solid border-[#00FF88] text-[#00FF88] px-3 py-3 rounded-4xl flex items-center">
-          <img class="mr-2 w-5 h-5" src="assets/message.png" alt="" />Subscribe
+          <img class="mr-2 w-5 h-5" src="assets/message.png" alt="message" />Subscribe
         </button>
       </div>
     </section>
@@ -129,7 +129,7 @@
         </h2>
         <div id="card" class="grid grid-cols-3 grid-rows-3 gap-7">
           <div class="Why-Choose-content bg-[#35116566] row-span-2 rounded-4xl p-10 block content-center">
-            <img src="assets/headphone.png" alt="" />
+            <img src="assets/headphone.png" alt="headphone" />
             <h3 class="text-2xl font-medium mt-4 mb-4">
               Premium Audio Quality
             </h3>
@@ -140,7 +140,7 @@
             </p>
           </div>
           <div class="Why-Choose-content bg-[#35116566] col-span-2 rounded-4xl p-10 block content-center">
-            <img src="assets/device.png" alt="" />
+            <img src="assets/device.png" alt="device" />
             <h3 class="text-2xl font-medium mt-4 mb-4">Mobile Friendly</h3>
             <p>
               Listen on the go with seamless mobile experience and offline
@@ -148,14 +148,14 @@
             </p>
           </div>
           <div class="Why-Choose-content bg-[#35116566] col-span-2 rounded-4xl p-10 block content-center">
-            <img src="assets/location.png" alt="" />
+            <img src="assets/location.png" alt="location" />
             <h3 class="text-2xl font-medium mt-4 mb-4">Global Community</h3>
             <p>
               Connect with tech enthusiasts from over 120 countries worldwide.
             </p>
           </div>
           <div class="Why-Choose-content bg-[#35116566] col-span-2 rounded-4xl p-10 block content-center">
-            <img src="assets/Icon (Stroke) (1).png" alt="" />
+            <img src="assets/Icon (Stroke) (1).png" alt="icon" />
             <h3 class="text-2xl font-medium mt-4 mb-4">
               Exclusive Interviews
             </h3>
@@ -167,7 +167,7 @@
             </p>
           </div>
           <div class="Why-Choose-content bg-[#35116566] rounded-4xl p-10 block content-center">
-            <img src="assets/resource.png" alt="" />
+            <img src="assets/resource.png" alt="resource" />
             <h3 class="text-2xl font-medium mt-4 mb-4">Rich Resources</h3>
             <p>
               Access show notes, transcripts, and additional learning
@@ -208,7 +208,7 @@
                 daily routines and what to expect in the next decade.
               </p>
               <div class="flex">
-                <img class="mr-4 w-5 h-5" src="assets/clock.png" alt="" /><span>42 min</span>
+                <img class="mr-4 w-5 h-5" src="assets/clock.png" alt="clock" /><span>42 min</span>
               </div>
             </div>
           </div>
@@ -234,7 +234,7 @@
                 work-life balance in a remote environment.
               </p>
               <div class="flex">
-                <img class="mr-4 w-5 h-5" src="assets/clock.png" alt="" /><span>35 min</span>
+                <img class="mr-4 w-5 h-5" src="assets/clock.png" alt="clock" /><span>35 min</span>
               </div>
             </div>
           </div>
@@ -259,7 +259,7 @@
                 developer to senior leadership roles.
               </p>
               <div class="flex">
-                <img class="mr-4 w-5 h-5" src="assets/clock.png" alt="" /><span>51 min</span>
+                <img class="mr-4 w-5 h-5" src="assets/clock.png" alt="clock" /><span>51 min</span>
               </div>
             </div>
           </div>
@@ -279,7 +279,7 @@
           class="flex bg-[#35116566] max-w-[1200px] mx-auto justify-center rounded-4xl py-20"
         >
           <div class="author mr-10">
-            <img src="assets/host.png" alt="" />
+            <img src="assets/host.png" alt="host" />
           </div>
           <div class="">
             <h3 class="text-3xl font-bold">Alex Kumar</h3>
@@ -296,25 +296,25 @@
                 href="#"
                 class="w-12 h-12 flex items-center justify-center rounded-full border border-[#533C72] hover:border-white transition"
               >
-                <img src="assets/linkedin.png" alt="" />
+                <img src="assets/linkedin.png" alt="linkedin" />
               </a>
               <a
                 href="#"
                 class="w-12 h-12 flex items-center justify-center rounded-full border border-[#533C72] hover:border-white transition"
               >
-                <img src="assets/x.png" alt="" />
+                <img src="assets/x.png" alt="x" />
               </a>
               <a
                 href="#"
                 class="w-12 h-12 flex items-center justify-center rounded-full border border-[#533C72] hover:border-white transition"
               >
-                <img src="assets/instagram.png" alt="" />
+                <img src="assets/instagram.png" alt="instragram" />
               </a>
               <a
                 href="#"
                 class="w-12 h-12 flex items-center justify-center rounded-full border border-[#533C72] hover:border-white transition"
               >
-                <img src="assets/youtube.png" alt="" />
+                <img src="assets/youtube.png" alt="youtube" />
               </a>
             </div>
           </div>
