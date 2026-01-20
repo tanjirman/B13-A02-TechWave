@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 /* responsive design */
 @media screen and (max-width: 576px) {
   #name,
@@ -49,6 +50,7 @@
   .images {
     display: none;
   }
+
   /* about */
   .about-content {
     padding: 10px;
@@ -63,6 +65,7 @@
     padding: 40px 10px;
     margin: 0 auto;
   }
+
   /* why choose */
   #card {
     display: grid;
@@ -85,10 +88,11 @@
   .Why-Choose-content > h3 {
     margin: 15px auto;
   }
+
+  /* features section */
   #feature-episodes {
     padding: 20px 5px;
   }
-  /* feasure section */
   #feature {
     padding: 5px;
     margin: 0 auto;
@@ -98,7 +102,8 @@
   .feature-video {
     width: 100%;
   }
-   /* host section */
+
+  /* host section */
   #host {
     display: block;
     text-align: center;
@@ -107,6 +112,7 @@
   #social-icons {
     display: inline-flex;
   }
+  
   /* footer */
   #social-icons {
     margin-top: 20px;
@@ -115,7 +121,10 @@
     font-size: 10px;
   }
 
-}/* 576px – 991px medium device*/
+  
+}
+
+/* 576px – 991px medium device*/
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .menus {
     gap: 10px;
@@ -124,9 +133,8 @@
     display: none;
   }
 
-
   .banner {
-    padding-top: 5rem !important; 
+    padding-top: 5rem !important;
     min-height: auto;
     display: flex;
     flex-direction: column;
@@ -144,9 +152,6 @@
     left: auto !important;
     right: auto !important;
   }
-
-
-
   #circle {
     position: absolute !important;
     width: 100% !important;
@@ -165,24 +170,24 @@
     right: auto;
   }
   #microphone {
-    width: 150px !important ;    
+    width: 150px !important ;
     height: auto !important;
     position: relative !important;
     z-index: 10 !important;
-    transform: none !important; 
+    transform: none !important;
     margin: 0 !important;
-
   }
   #badge {
     position: absolute !important;
-     z-index: 20 !important;
+    z-index: 20 !important;
     top: 40px !important;
     right: 20px !important;
-    transform: none !important; 
+    transform: none !important;
     font-size: 1rem !important;
     padding: 4px 12px !important;
-    } }
-    /* about */
+  }
+
+  /* about */
   .about-content {
     padding: 20px;
   }
@@ -200,10 +205,12 @@
     gap: 10px !important;
     grid-template-columns: 1fr;
   }
-  /* features section */
+
+/* features section */
   #feature-episodes {
-    padding: 20px 5px;
+    padding: 20px 15px;
   }
+
   #feature {
     padding: 15px;
     margin: 0 auto;
@@ -213,9 +220,9 @@
   .feature-video {
     width: 100%;
   }
- 
+}
 
-    /* 992px+ large device */
+/* 992px+ large device */
 @media screen and (min-width: 993px) {
   #navbar {
     padding: 16px 200px;
@@ -227,5 +234,4 @@
   .hamburger {
     display: none;
   }
-} 
-      
+}
