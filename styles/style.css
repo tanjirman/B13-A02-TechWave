@@ -85,6 +85,15 @@
   .Why-Choose-content > h3 {
     margin: 15px auto;
   }
+   /* host section */
+  #host {
+    display: block;
+    text-align: center;
+  }
+  .author,
+  #social-icons {
+    display: inline-flex;
+  }
 }/* 576px – 991px medium device*/
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .menus {
@@ -183,6 +192,7 @@
   .feature-video {
     width: 100%;
   }
+ 
 
     /* 992px+ large device */
 @media screen and (min-width: 993px) {
